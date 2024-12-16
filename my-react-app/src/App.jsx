@@ -14,6 +14,11 @@ import UpdateObjInState from './UpdateObjInState';
 import UpdateArraysInState from './UpdateArraysInState';
 import UpdArrOfObjectsInState from './UpdArrOfObjectsInState';
 import ToDoList from './ToDoList';
+import UseEffect from './UseEffect';
+import DigitalClock from './DigitalClock';
+import ComponentA from './ComponentA';
+import UseRef from './UseRef';
+import Stopwatch from './Stopwatch';
 
 function App() {
 
@@ -36,8 +41,13 @@ function App() {
 
        return(
     <>
-    <ToDoList/>
-    {/*<Card></Card>
+    <Stopwatch/>
+    {/*<ToDoList/>
+    <DigitalClock/>
+    <ComponentA/>
+    <UseRef/>
+    <UseEffect/>
+    <Card></Card>
     <Header/>
     <Card/>
     <Button/>
